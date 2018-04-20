@@ -1,0 +1,8 @@
+---
+layout: default
+img: dumbledore.png
+category: projects
+title: haha
+description: |
+---
+  I like Harry Potter and my favorite character is Professor Dumbledore!

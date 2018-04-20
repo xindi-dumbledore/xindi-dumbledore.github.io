@@ -1,0 +1,34 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://yoursite.com
+title: Xindi Wang's Homepage
+email: xindi.w1993@gmail.com
+author: Xindi Wang
+description: > # "Write an awesome description for your new site here. 
+  You can edit this line in _config.yml. It will appear in your document 
+  head meta (for Google search results) and in your feed.xml site 
+  description.
+copyright: 'Copyright &copy; 2018 Xindi Wang. All Rights Reserved.'
+credits: 'Last Update: April, 2018'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: github
+    url: https://github.com/xindi-dumbledore
+  - title: linkedin
+    url: https://www.linkedin.com/in/wangxindi/
+  - title: twitter
+    url: https://twitter.com/albus931003

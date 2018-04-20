@@ -1,0 +1,8 @@
+---
+layout: default
+img: bach.png
+category: life
+title: First try
+description: |
+---
+Recently I'm playing Songs without Words by Mendelsson.
