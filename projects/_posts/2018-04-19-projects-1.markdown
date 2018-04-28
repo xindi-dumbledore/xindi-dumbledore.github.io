@@ -14,6 +14,6 @@ We recently published our first paper in this project in *EPJ Data Science*. We 
 
 We are currently working on the prediction of book sales prior to the publication of a book. I have shown part of our results at various conferences:
 
-- CompleNet'18. You can find my [presentation](https://raw.githubusercontent.com/xindi-dumbledore/xindi-dumbledore.github.io/master/_includes/myfiles/LearningToPlace_final.pdf) here!
+- CompleNet'18. You can find my [presentation](https://raw.githubusercontent.com/xindi-dumbledore/xindi-dumbledore.github.io/master/README.md) here!
 - NetSciX'18. You can find my [presentation](xindi-dumbledore.github.io/_includes/myfiles/LearningToPlace_final.pdf) here!
 - NetSci'17
