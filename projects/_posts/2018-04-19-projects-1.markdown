@@ -1,8 +1,19 @@
 ---
 layout: default
-img: dumbledore.png
+img: flowchart.png
 category: projects
-title: haha
+title: Success of Books and Authors
 description: |
 ---
-  I like Harry Potter and my favorite character is Professor Dumbledore!
+I'm currently working on a project *Success of Books and Authors* in collaboration with Burcu Yucesoy, Onur Varol, Prof Tina Eliassi-Rad and Prof Albert-László Barabási. We are interested in why some books and authors become successful.
+
+We recently published our first paper in this project in *EPJ Data Science*. We analzed the *New York Times* Bestseller data and found a lot of interesting pattern in it. We also have an interactive visualization website and it's fun to play with!
+
+- Check [our paper](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-018-0135-y)
+- Check the [visualizations](http://bestsellers.barabasilab.com)!
+
+We are currently working on the prediction of book sales prior to the publication of a book. I have shown part of our results at various conferences:
+
+- CompleNet'18. You can find my [presentation](myfiles/LearningToPlace_final.pdf) here!
+- NetSciX'18. You can find my [presentation](myfiles/LearningToPlace_final.pdf) here!
+- NetSci'17
