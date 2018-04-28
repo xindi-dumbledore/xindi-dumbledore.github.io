@@ -30,3 +30,6 @@ social:
     url: https://www.linkedin.com/in/wangxindi/
   - title: twitter
     url: https://twitter.com/albus931003
+
+plugins:
+  - jemoji
