@@ -1,8 +1,8 @@
 ---
 layout: default
-img: phones.png
+img: santafe.jpg
 category: experiences
-title: First try
+title: Santa Fe Summer School
 description: |
 ---
-Hello hello hello! my first webpage! exciting!
+I'm going to the Santa Fe Summer School this June - July :)
