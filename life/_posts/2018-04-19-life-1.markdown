@@ -7,6 +7,9 @@ description: |
 ---
 My part time is mostly filled with music. I'm an amateur piano player since I only learned electronic keyboard in my childhood and never learned the piano formally. I have a digital piano at home and I record piano pieces from time to time. It reduces the stress from my PhD life.
 
-- Recently I fall in love with Mendelssohn's *Lieder ohne Worte*. And here is my recording of *Lieder ohne Worte, Op.30: No. 6. Allegretto in F sharp minor "Venetian Gondola Song"*
+- Recently I fall in love with Mendelssohn's *Lieder ohne Worte*. And here is my recording of *Lieder ohne Worte, Op.30: No. 6. Allegretto in F sharp minor "Venetian Gondola Song"* <audio controls="controls">
+  <source src="img/life/foo.mp3"
+         type='audio/mp3'>
+</audio>
 - One of my long time favorite composers is Yann Tiersen. I first heard about him from the Movie Amélie. Here is my recording from his recent release piano works EUSA.
 - I love Bach.
