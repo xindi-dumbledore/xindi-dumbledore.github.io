@@ -88,15 +88,25 @@ h6 {
     letter-spacing: 2px;
 }
 
+.title-section-a {
+    padding: 0 0 20px;
+    background-color: #f8f8f8;
+}
+
+.title-section-b {
+    padding: 0 0 20px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
 .content-section-a {
-    padding: 50px 0;
+    padding: 50px 0 10px;
     background-color: #f8f8f8;
 }
 
 .content-section-b {
-    padding: 50px 0;
+    padding: 50px 0 10px;
     border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
+    /*border-bottom: 1px solid #e7e7e7;*/
 }
 
 .section-heading {

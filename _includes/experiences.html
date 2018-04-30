@@ -1,6 +1,6 @@
 <section id="experiences">
 <!-- Page Content -->
-{% for post in site.categories.experiences reversed %}
+{% for post in site.categories.experiences reversed limit:1%}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
     <div class="content-section-a">
