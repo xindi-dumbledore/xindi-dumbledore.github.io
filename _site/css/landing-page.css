@@ -166,10 +166,12 @@ p.copyright {
 }
 
 /*My stuff*/
-#about {
-    height: 100vh; /*vh stands for view-port height, 1vh is 1% of screen height*/
-    margin: 0 auto -60px;
-    padding: 0 0 60px;
+#about 
+{position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
 }
 
 .page-title-section{
