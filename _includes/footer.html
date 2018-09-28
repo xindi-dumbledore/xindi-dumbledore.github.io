@@ -1,34 +1,19 @@
 <!-- Footer -->
-<footer>
+<div id="footer">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <ul class="list-inline">
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#experiences">Experiences</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#life">Life</a>
-                    </li>
-                </ul>
-                <p class="copyright text-muted small">{{ site.copyright }}</p>
+                <ul class="list-inline intro-social-buttons">
+                            {% for social in site.social %}
+                            <li>
+                                <a href="{{ social.url }}" class="btn btn-link btn-lg"><i class="fa fa-{{ social.title }} fa-fw"></i> </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
             </div>
             <div class="col-md-4">
-                {{ site.credits }}
+                <p class="copyright text-muted small">Copyright &copy; 2018 Xindi Wang. All Rights Reserved.</p>
             </div>
         </div>
     </div>
-</footer>
+</div>
