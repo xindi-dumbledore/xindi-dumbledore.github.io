@@ -4,7 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body,
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body{
+  font-family: 'Quicksand', sans-serif !important;
+},
 html {
     width: 100%;
     height: 100%;
@@ -12,6 +16,17 @@ html {
 
 body,
 h1,
+h1.normal {
+   font-size: 18px;
+   font-weight: lighter;
+}
+
+h1.small {
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-size:50px;
+}
+
 h2,
 h3,
 h4,
@@ -89,7 +104,7 @@ h6 {
 }
 
 .content-section-a {
-    padding: 50px 0;
+    padding: 20px 0;
     background-color: #f8f8f8;
 }
 
@@ -210,17 +225,18 @@ p.copyright {
   background-color: #f5f5f5;
 }
 
+
 .push {
   height: 60px;
 }
 
 p.indexnormal {
-   font-size: 18px;
+   font-size: 22px;
    font-weight: lighter;
 }
 
 p.indexsmall {
     font-variant: small-caps;
     font-weight: lighter;
-    font-size:30px;
+    font-size:50px;
 }
