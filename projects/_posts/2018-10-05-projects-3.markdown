@@ -1,0 +1,8 @@
+---
+layout: default
+img: art.png
+category: projects
+title: Success of Artists
+description: |
+---
+As a continution project of Success of Books and Authors, we set out to explore the career of artists and try to reveal patterns behind their success. Our current idea is to build higher-order networks based on artists career (exhibition) to see whether there are interesting characteristics of this network. We also have the idea to use machine learning to analyze art pieces themselves to see how art envolve over time.
