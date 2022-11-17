@@ -1,11 +1,11 @@
 ---
 layout: default
-img: santafe.jpg
+img: SFI.png
 category: experiences
 title: Complex System Summer School (CSSS'18)
 description: |
 ---
-I participated the Complex System Summer School at Santa Fe Institute in summer 2018. It is a one-month long program with extensive lectures, projects, and a lot of fun! I participated in two projects:
+I participated the Complex System Summer School at [Santa Fe Institute](https://www.santafe.edu) in summer 2018. It is a one-month long program with extensive lectures, projects, and a lot of fun! I participated in two projects:
 
 - Understanding music using higher order networks (see more details in [Projects](https://xindi-dumbledore.github.io/projects/index.html))
 - Analyzing Singapore public transportation data and economic sector clustering

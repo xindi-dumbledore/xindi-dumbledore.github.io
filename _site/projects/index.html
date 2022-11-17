@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Personal Website for Xindi Wang, Network Science PhD">
+    <meta name="description" content="Personal Website for Xindi Wang, Ph.D.">
     <meta name="author" content="Xindi Wang">
 
     <title>Xindi Wang</title>
@@ -49,13 +49,13 @@
                     <a class="nav-link" href="../index.html">About</a>
                 </li>            
                 <li>
-                    <a class="nav-link" href="/projects/index.html">Projects</a>
-                </li>
-                <li>
                     <a class="nav-link" href="/experiences/index.html">Experiences</a>
                 </li>
                 <li>
-                    <a class = "nav-link" href="/assets/CV-Xindi Wang.pdf">CV</a>
+                    <a class="nav-link" href="/projects/index.html">Projects</a>
+                </li>
+                <li>
+                    <a class = "nav-link" href="/assets/Xindi Wang - CV.pdf">CV</a>
 
                 </li>
                 <!-- <li>
@@ -85,18 +85,15 @@
     
     <div class="content-section-a">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <h2 class="section-heading">Gender Bias in the Art World</h2>
+            
+                <div class="row">
+                    <h2 class="section-heading">Graph-based Data Augmentation for Entity Resolution</h2>
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <div class="lead"><p>I’m currently working on a project <em>Gender Bias in the Art World</em> in collaboration with Alex Gates and Prof Albert-László Barabási. We are interested in measuring gender bias systmatically and find out possible reasons contribute to that. The paper is currently under preparation.</p>
+                    <div class="lead"><p>Upstream ASR (Automatic Speech Recognition) can influence downstream tasks such as Entity Resolution. In this project, I design and develop a graph-based data augmentation method to make the Entity Resolution more robust to the upstream error. I experiment the method on a use-case with more than 500K traffic weekly, and found that it can achieve 5.19% improvement on accuracy overall, and 27.86% improvement on harder cases. I also extend this method using graph neural network.</p>
 </div>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="/img/projects/art.png" alt="">
-                </div>
-            </div>
+            
         </div>
         <!-- /.container -->
     </div>
@@ -107,19 +104,15 @@
     
     <div class="content-section-b">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <h2 class="section-heading">Fairness in Machine Learning</h2>
+            
+                <div class="row">
+                    <h2 class="section-heading">Cross-query Ranker on ASR N-best for Entity Resolution</h2>
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <div class="lead"><p>Fairness in Machine Learning has become an arising topic recently. With increasing application of Machine Learning algorithms in daily lives, people have found out those algorithms can be “unfair” since the data is biased. We recently started a project “Just ML” with Prof. Tina Eliassi-Rad and Dr. Onur Varol, trying to quantify two potential sources of “unfairness”: in-group favortism” and “out-group prejudice” using the COMPAS data. The project is still in its early stage.</p>
+                    <div class="lead"><p>In this project, I develop a machine learning ranker to leverage results from upstream ASR (Automatic Speech Recognition) to make the Entity Resolution result robust to ASR errors. I experiment the ranker on two use-cases with 100k examples and 1 million examples separately, and achieved about 10% gain in accuracy.</p>
 </div>
                 </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="/img/projects/fairness.png" alt="">
-                </div>
-            </div>
-
+            
         </div>
         <!-- /.container -->
 
@@ -131,28 +124,17 @@
     
     <div class="content-section-a">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <h2 class="section-heading">Success of Books and Authors</h2>
+            
+                <div class="row">
+                    <h2 class="section-heading">Ranker-based Entity Exploration Model for Entity Resolution</h2>
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <div class="lead"><p>I worked on a project <em>Success of Books and Authors</em> in collaboration with Burcu Yucesoy, Onur Varol, Prof Tina Eliassi-Rad and Prof Albert-László Barabási. We are interested in why some books and authors become successful.</p>
+                    <div class="lead"><p>In this project, I lead, design and develop a ranker-based entity exploration model for entity resolution in Alexa. Our goal is to suggest alternative results comparing to the production system and collect customer feedback on such results while not hurting customer experience. These collected feedback would be useful for future model iteration.</p>
 
-<p>Our first paper in this project in <em>EPJ Data Science</em>. We analzed the <em>New York Times</em> Bestseller data and found a lot of interesting pattern in it. We also have an interactive visualization website and it’s fun to play with!</p>
-
-<p>Our second paper in this project is on analyzing the contribution factors that make a book successful. We build a machine learning model to predict book sales from various features. This task is challenging since book sales is heavy-tailed distributed, and traditional machine learning models are prune to underpredict books with high sales. To tackle this, we build an algorithm called Learning to Place. We also analyzed the feature importance that contribute to book’s success.</p>
-
-<ul>
-  <li>Our first paper: <a href="https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-018-0135-y">Success in books: a big data approach to bestsellers</a>!</li>
-  <li>Our second paper: <a href="https://link.springer.com/article/10.1140/epjds/s13688-019-0208-6">Success in books: predicting book sales before publication</a></li>
-  <li>Check the <a href="http://bestsellers.barabasilab.com">visualizations of NYT bestsellers</a>!</li>
-</ul>
+<p>I applied the model on a use case with more than 500K weekly traffic. Through online A/B test and offline analysis, I demonstrate an improvement of 5.04% comparing to the current production system.</p>
 </div>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="/img/projects/flowchart.png" alt="">
-                </div>
-            </div>
+            
         </div>
         <!-- /.container -->
     </div>
@@ -163,21 +145,143 @@
     
     <div class="content-section-b">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <h2 class="section-heading">Understanding Music using Networks</h2>
+            
+                <div class="row">
+                    <h2 class="section-heading">Entity linking on Customer Reviews and Queries</h2>
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <div class="lead"><p>Started as a course project, I initially collaborated with Syed Haque trying to understand music from the sheet music purely. We built the one-step note transition matrix for music pieces and use these matrices to cluster music; we found the matrices themselves are very distinct for Bach’s Fugue and the clusters we found aligns with music era. Check our <a href="https://arxiv.org/abs/1706.08928">paper</a>!</p>
+                    <div class="lead"><p>In this project, I used natural language processing and learning to rank method and developed an entity linking system using wikipedia data on customer queries and reviews, which would be useful to enrich knowledge for search.
+I designed evaluation method on both wikipedia data and collected Mechanical Turk labeled data, and achieved about 20% improvement comparing to baseline.</p>
+</div>
+                </div>
+            
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    
+
+  
+    
+    <div class="content-section-a">
+        <div class="container">
+            
+                <div class="row">
+                    <h2 class="section-heading">Quantifying Systemic Gender Inequality in Visual Art</h2>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <div class="lead"><p>From disparities in the number of exhibiting artists to auction opportunities, there is overwhelming evidence of women’s under-representation in visual art, rooted in a complex and largely unknown interplay between gender, artistic performance and institutional practices. 
+In this project we explore the exhibitions and auction sales of 65,768 gender-identified contemporary artists in 20,389 institutions, confirming systemic gender differences in the artist population, exhibitions and auctions. 
+We distinguish between gender-neutrality, when artists have gender-independent access to exhibition opportunities and gender-balance, that strives for gender parity in representation, finding that 55% of institutions are gender-neutral but only 30% are gender-balanced, and that the fraction of man-preferred institutions increases with institutional prestige.
+Finally, we use machine learning to predict an artist’s access to the auction market, finding that co-exhibition gender, capturing the gender inequality of the institutions that an artist embraces has a higher impact on success than the artist’s gender. 
+These results help unveil and quantify the institutional forces that contribute to the persistent gender imbalance in the art world.</p>
+
+<p><strong>Reference</strong></p>
+
+<ul>
+  <li>Wang, Xindi, Alex J. Gates, and Albert-László Barabási, “Quantifying systemic gender inequality in visual art.” Nature Communications (Under review).</li>
+</ul>
+</div>
+                </div>
+            
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-a -->
+    
+
+  
+    
+    <div class="content-section-b">
+        <div class="container">
+            
+                <div class="row">
+                    <h2 class="section-heading">Information access equality on generative models of complex networks</h2>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <div class="lead"><p>It is well known that networks generated by common mechanisms such as preferential attachment and homophily can disadvantage the minority group by limiting their ability to establish links with the majority group. This has the effect of limiting minority nodes’ access to information. We present the results of an empirical study on the equality of information access in network models with different growth mechanisms and spreading processes. For growth mechanisms, we focus on the majority/minority dichotomy, homophily, preferential attachment, and diversity. For spreading processes, we investigate simple versus complex contagions, different transmission rates within and between groups, and various seeding conditions. We observe two phenomena. First, information access equality is a complex interplay between network structures and the spreading processes. Second, there is a trade-off between equality and efficiency of information access under certain circumstances (e.g., when inter-group edges are low and information transmits asymmetrically). Our findings can be used to make recommendations for mechanistic design of social networks with information access equality.</p>
+
+<p><strong>Reference</strong></p>
+
+<ul>
+  <li>Wang, Xindi, Onur Varol, and Tina Eliassi-Rad. “Information access equality on generative models of complex networks.” Applied Network Science 7, no. 1 (2022): 1-20. <a href="https://appliednetsci.springeropen.com/articles/10.1007/s41109-022-00494-8">link to paper</a></li>
+</ul>
+</div>
+                </div>
+            
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    
+
+  
+    
+    <div class="content-section-a">
+        <div class="container">
+            
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6">
+                        <h2 class="section-heading">Success of Books and Authors</h2>
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <div class="lead"><p>I worked on a project <em>Success of Books and Authors</em> in collaboration with Burcu Yucesoy, Onur Varol, Prof Tina Eliassi-Rad and Prof Albert-László Barabási. We are interested in why some books and authors become successful.</p>
+
+<p>Our first paper in this project in <em>EPJ Data Science</em>. We analzed the <em>New York Times</em> Bestseller data and found a lot of interesting pattern in it. We also have an interactive visualization website and it’s fun to play with!</p>
+
+<p>Our second paper in this project is on analyzing the contribution factors that make a book successful. We build a machine learning model to predict book sales from various features. This task is challenging since book sales is heavy-tailed distributed, and traditional machine learning models are prune to underpredict books with high sales. To tackle this, we build an algorithm called Learning to Place. We also analyzed the feature importance that contribute to book’s success.</p>
+
+<p><strong>Reference</strong></p>
+
+<ul>
+  <li>
+    <p>Yucesoy, Burcu, Xindi Wang, Junming Huang, and Albert-László Barabási. “Success in books: a big data approach to bestsellers.” EPJ Data Science 7 (2018): 1-25. <a href="https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-018-0135-y">link to paper</a></p>
+  </li>
+  <li>
+    <p>Wang, Xindi, Burcu Yucesoy, Onur Varol, Tina Eliassi-Rad, and Albert-László Barabási. “Success in books: predicting book sales before publication.” EPJ Data Science 8, no. 1 (2019): 1-20. <a href="https://link.springer.com/article/10.1140/epjds/s13688-019-0208-6">link to paper</a></p>
+  </li>
+  <li>
+    <p>Wang, Xindi, Onur Varol, and Tina Eliassi-Rad. “L2P: an algorithm for estimating heavy-tailed outcomes.” arXiv preprint arXiv:1908.04628 (2019).</p>
+  </li>
+  <li>
+    <p>Also check out the <a href="http://bestsellers.barabasilab.com">visualizations of NYT bestsellers</a></p>
+  </li>
+</ul>
+</div>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <img class="img-responsive" src="/img/projects/flowchart.png" alt="">
+                    </div>
+                </div>
+            
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-a -->
+    
+
+  
+    
+    <div class="content-section-b">
+        <div class="container">
+            
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                        <h2 class="section-heading">Understanding Music using Networks</h2>
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <div class="lead"><p>Started as a course project, I initially collaborated with Syed Haque trying to understand music from the sheet music purely. We built the one-step note transition matrix for music pieces and use these matrices to cluster music; we found the matrices themselves are very distinct for Bach’s Fugue and the clusters we found aligns with music era. Check our <a href="https://arxiv.org/abs/1706.08928">paper</a>!</p>
 
 <p>During the Santa Fe Summer School, I pitched this music related project and collaborated with Josefine Brask, Ricky Laishram and Carlos Marcelo, trying to understand music by building higher-order networks. We came up with several metrics to quantify different charateristics of music from those higher-order networks such as “branchingness”, “repetitiveness”, etc., and try to connect them with different music genres. Here are the related <a href="/assets/understanding_music.pdf">slides</a>!</p>
 </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                      <img class="img-responsive" src="/img/projects/music.jpeg" alt="">
+                    </div>
                 </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="/img/projects/music.jpeg" alt="">
-                </div>
-            </div>
-
+            
         </div>
         <!-- /.container -->
 
@@ -198,11 +302,11 @@
                             </li>
                             
                             <li>
-                                <a href="https://github.com/xindi-dumbledore" class ="navbar-btn btn"><i class="fa fa-github fa-fw" style="font-size:20px;"></i> </a>
+                                <a href="https://www.linkedin.com/in/wangxindi/" class ="navbar-btn btn"><i class="fa fa-linkedin fa-fw" style="font-size:20px;"></i> </a>
                             </li>
                             
                             <li>
-                                <a href="https://www.linkedin.com/in/wangxindi/" class ="navbar-btn btn"><i class="fa fa-linkedin fa-fw" style="font-size:20px;"></i> </a>
+                                <a href="https://github.com/xindi-dumbledore" class ="navbar-btn btn"><i class="fa fa-github fa-fw" style="font-size:20px;"></i> </a>
                             </li>
                             
                             <li>
@@ -222,16 +326,16 @@
     </div>
 </div>
 <!-- jQuery Version 1.11.0 -->
-<script src="../js/jquery-1.11.0.js"></script>
+<script src="js/jquery-1.11.0.js"></script>
 
 <!-- Plugin JavaScript -->
-    <script src="../js/jquery.easing.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="../js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="../js/landing-page.js"></script>
+<script src="js/landing-page.js"></script>
 
 </body>
 </html>
